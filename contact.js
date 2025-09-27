@@ -11,7 +11,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
         message: message
     };
 
-    fetch('https://jessicaspage-production.up.railway.app/', {
+    fetch('https://jessicaspage-production.up.railway.app/api/contact', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
